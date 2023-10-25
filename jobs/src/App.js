@@ -9,13 +9,13 @@ import { Routes, Route, Link, BrowserRouter } from 'react-router-dom';
 function App() {
   return (
    
-<BrowserRouter>
+<Router basename = "Nextgen-Frontend">
 <Routes>
   <Route path="/" element= {<Home />}/>
   <Route path = "/jobpage" element = {<JobPage />} />
   <Route path = "/specificjob/:id" element = {<SpecificJob />} />
   </Routes>
-</BrowserRouter>
+</Router>
   );
 }
 

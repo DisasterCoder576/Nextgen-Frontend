@@ -1,7 +1,7 @@
 {
   "name": "jobs",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://DisasterCoder576.github.io/<Nextgen-Frontend>",
   "proxy": "http://localhost:5000/",
   "dependencies": {

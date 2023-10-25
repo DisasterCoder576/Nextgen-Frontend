@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": false,
   "homepage": "https://disastercoder576.github.io/Nextgen-Frontend",
-
   "dependencies": {
     "-": "^0.0.1",
     "@coreui/coreui": "^5.0.0-alpha.3",

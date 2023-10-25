@@ -6,13 +6,13 @@ import Home from "./pages/home";
 import JobPage from './pages/jobpage';
 import SpecificJob from './pages/specificjob';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Route, Routes, Router} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-       <BrowserRouter classname = "Nextgen-Frontend">
+       <Router classname = "Nextgen-Frontend">
 <Routes>
 <Route path="/" element= {<Home />}/>
   <Route path = "/jobpage" element = {<JobPage />} />
@@ -20,7 +20,7 @@ root.render(
 </Routes>
 
 
-</BrowserRouter>
+</Router>
     </React.StrictMode>
 
 

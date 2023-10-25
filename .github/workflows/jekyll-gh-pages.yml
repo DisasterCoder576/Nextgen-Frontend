@@ -35,7 +35,7 @@ jobs:
         with:
           source: ./
           destination: ./_site
-          path: jobs
+          path: fe1
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
 

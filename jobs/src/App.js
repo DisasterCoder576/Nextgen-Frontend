@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Home from "./pages/home";
 import JobPage from './pages/jobpage';
 import SpecificJob from './pages/specificjob';
-import { Routes, Route, Link, BrowserRouter } from 'react-router-dom';
+import { Router, Routes, Route, Link, BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (

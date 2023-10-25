@@ -12,7 +12,7 @@ import { Router, Route, Routes, BrowserRouter} from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-       <BrowserRouter>
+       <BrowserRouter basename="/Nextgen-Frontend">
 <Routes>
 <Route path="/" element= {<Home />}/>
   <Route path = "/jobpage" element = {<JobPage />} />

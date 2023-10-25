@@ -14,10 +14,12 @@ root.render(
     <React.StrictMode>
        <BrowserRouter>
 <Routes>
-  <Route path="/" element= {<Home />}/>
+<Route path="/" element= {<Home />}/>
   <Route path = "/jobpage" element = {<JobPage />} />
   <Route path = "/specificjob/:id" element = {<SpecificJob />} />
-  </Routes>
+</Routes>
+
+
 </BrowserRouter>
     </React.StrictMode>
 

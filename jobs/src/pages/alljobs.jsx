@@ -33,7 +33,7 @@ const JobList = () => {
 
     async function fetchMoreItems(){
         try{
-            const response = await fetch(`http://www.localhost:5000/getalljobs?skip=${page*5}`,
+            const response = await fetch(`https://node-jobs-g83d.onrender.com/getalljobs?skip=${page*5}`,
             {
                 method:"GET",  
             }

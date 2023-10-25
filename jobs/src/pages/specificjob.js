@@ -46,7 +46,7 @@ function SpecificJob() {
 
   const postjobapp = async () => {
     try {
-      const response = await fetch(`http://www.localhost:5000/postjobapp?jobid=${id}&email=${email}`,
+      const response = await fetch(`https://node-jobs-g83d.onrender.com/postjobapp?jobid=${id}&email=${email}`,
        {
         method: "GET",
        } 
@@ -70,7 +70,7 @@ function SpecificJob() {
 
     const fetchJob = async () => {
         try {
-          const response = await fetch(`http://www.localhost:5000/getSpecificJob?jobid=${id}`,
+          const response = await fetch(`https://node-jobs-g83d.onrender.com/getSpecificJob?jobid=${id}`,
            {
             method: "GET",
            } 

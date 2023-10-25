@@ -4,18 +4,19 @@ import Button from 'react-bootstrap/Button';
 import Home from "./pages/home";
 import JobPage from './pages/jobpage';
 import SpecificJob from './pages/specificjob';
-import { Router, Routes, Route, Link, BrowserRouter } from 'react-router-dom';
+import { HashRouter, Routes, Route, Link, BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
    
-<Router basename = "Nextgen-Frontend">
+<BrowserRouter>
 <Routes>
   <Route path="/" element= {<Home />}/>
   <Route path = "/jobpage" element = {<JobPage />} />
   <Route path = "/specificjob/:id" element = {<SpecificJob />} />
   </Routes>
-</Router>
+</BrowserRouter>
+
   );
 }
 

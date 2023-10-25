@@ -1,5 +1,5 @@
 {
-  "homepage": "https://disastercoder576.github.io",
+  "homepage": "https://DisasterCoder576.github.io",
   "name": "jobs",
   "version": "0.1.0",
   "private": false,
@@ -28,7 +28,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d master build"
   },
   "eslintConfig": {
     "extends": [
